@@ -28,5 +28,5 @@ async def on_message(message):
 # client.run(key)
 # the parameter that is being passed is the token that authorizes the bot to run
 
-client.run('OTMzNzczOTE0NjMzNTQ3Nzc3.YemauQ.GoVKca8iQogZLuBvqJrTB_andVU')
+
 #NOTE: this token isn't made public just like Djano's secret key

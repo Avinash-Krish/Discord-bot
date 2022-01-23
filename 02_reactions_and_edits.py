@@ -33,5 +33,5 @@ async def on_reaction_add(reaction, user):
     await reaction.message.channel.send(f"{user} reacted with {reaction.emoji}")
     
 
-client.run('OTMzNzczOTE0NjMzNTQ3Nzc3.YemauQ.GoVKca8iQogZLuBvqJrTB_andVU')
+
 #NOTE: this token isn't made public just like Djano's secret key
