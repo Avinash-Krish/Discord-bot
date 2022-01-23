@@ -1,5 +1,5 @@
 import discord
-import os
+import config
 
 client = discord.Client() # this client object is used to connect to the discord web socket and API
 
@@ -23,7 +23,7 @@ async def on_message(message):
     # await message.channel.send('Hey there!') # making sure that the bot sends the response in the same channel(discord) and not in a different channel
 
 #NOTE: Below is the way to hide the key which didn't work. Maybe enabling a virtual environment might make it work
-key = os.environ.get('Discord_bot_key')
+key = config.Discord_bot_key
 client.run(key)
 # the parameter that is being passed is the token that authorizes the bot to run
 

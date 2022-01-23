@@ -1,5 +1,5 @@
 import discord
-import os
+import config
 
 client = discord.Client()
 
@@ -33,5 +33,6 @@ async def on_reaction_add(reaction, user):
     await reaction.message.channel.send(f"{user} reacted with {reaction.emoji}")
     
 
-
+key = config.Discord_bot_key
+client.run(key)
 #NOTE: this token isn't made public just like Django's secret key
