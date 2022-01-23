@@ -34,4 +34,4 @@ async def on_reaction_add(reaction, user):
     
 
 
-#NOTE: this token isn't made public just like Djano's secret key
+#NOTE: this token isn't made public just like Django's secret key

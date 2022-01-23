@@ -8,7 +8,7 @@ In discord, if someone sends a message or reacts is called an event. Using our b
 """
 
 @client.event
-async def on_ready(): # this function is part of discord packeage and is triggered when the bot is online and is ready to listen
+async def on_ready(): # this function is part of discord package and is triggered when the bot is online and is ready to listen
     print('Bot is now online and ready to listen')
     
 @client.event
@@ -23,9 +23,8 @@ async def on_message(message):
     # await message.channel.send('Hey there!') # making sure that the bot sends the response in the same channel(discord) and not in a different channel
 
 #NOTE: Below is the way to hide the key which didn't work. Maybe enabling a virtual environment might make it work
-# key = os.environ.get('Discord_bot_key')
-# print(key)    
-# client.run(key)
+key = os.environ.get('Discord_bot_key')
+client.run(key)
 # the parameter that is being passed is the token that authorizes the bot to run
 
 
