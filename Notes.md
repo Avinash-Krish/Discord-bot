@@ -8,7 +8,11 @@ Steps to create
 '''
 pip install -r requirements.txt
 '''
-wihtin the requirements.txt file, first write the name of the python package and the version to be installed
-3)
+within the requirements.txt file, first write the name of the package and the version to be installed
+
+### 05-Help and Embeds
+- The help command in-built pulls the doc string we have written    
+- 
+
 
 

@@ -53,7 +53,6 @@ class MyClient(discord.Client): # our own class that inherits from the parent cl
         
         guild = client.get_guild(payload.guild_id)
         member = guild.get_member(payload.user_id) # removing the role for the user that is deleting the reaction
-        print(member)
         
         
         if payload.emoji.name == '🥔':
